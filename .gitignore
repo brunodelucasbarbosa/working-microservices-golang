@@ -1,1 +1,6 @@
 /project/db-data/mongo
+
+/authentication-service/authApp
+/broker-service/brokerApp
+/logger-service/loggerServiceApp
+/mail-service/mailApp

@@ -4,6 +4,7 @@
 /authentication-service/authApp
 /broker-service/brokerApp
 /logger-service/loggerServiceApp
+/listener-service/listenerApp
 /mail-service/mailApp
 ./idea
 

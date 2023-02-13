@@ -33,7 +33,6 @@ func (app *Config) readJSON(w http.ResponseWriter, r *http.Request, data any) er
 
 func (app *Config) writeJson(w http.ResponseWriter, status int, data any, headers ...http.Header) error {
 	out, err := json.Marshal(data)
-
 	if len(headers) > 0 {
 		for key, value := range headers[0] {
 			w.Header()[key] = value
